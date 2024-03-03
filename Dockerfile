@@ -12,4 +12,4 @@ COPY . .
 
 RUN npm run build
 
-CMD ["serve", "-s dist"]
+CMD serve -s dist
