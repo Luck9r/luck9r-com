@@ -12,4 +12,6 @@ COPY . .
 
 RUN npm run build
 
-CMD serve -s dist
+ENTRYPOINT [ "serve" ]
+
+CMD ["-s", "dist"]
