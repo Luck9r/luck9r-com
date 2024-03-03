@@ -21,7 +21,8 @@ function App() {
       <div className="flex-col">
         <h1
           className="
-            text-9xl
+            text-7xl
+            md:text-9xl
             font-extrabold
             text-transparent
             "
