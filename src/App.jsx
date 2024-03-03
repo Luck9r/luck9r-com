@@ -19,7 +19,7 @@ function App() {
           "
     >
       <div className="flex-col">
-        <div
+        <h1
           className="
             text-9xl
             font-extrabold
@@ -27,7 +27,7 @@ function App() {
             "
         >
           Luck9r
-        </div>
+        </h1>
         <div className="flex flex-row justify-center space-x-10 mt-6">
           <Social url="https://github.com/Luck9r">
             <BsGithub className="fill-inherit" />
