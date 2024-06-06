@@ -8,5 +8,11 @@ export default defineConfig({
     port: 3000,
     strictPort: true,
     host: true,
+    proxy: {
+      '/.well-known/matrix': {
+        target: 'https://matrix.luck9r.com',
+        changeOrigin: true,
+      }
+    }
   },
 })
